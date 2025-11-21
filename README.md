@@ -22,11 +22,11 @@ bash<(curl -L https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De_Monsie
 ```
 
 - Ouvrir un terminal puis copier/exécuter la commande `curl`
-Ensuite,
+[Ensuite,
 ```bash
 chmod +x french.sh
 bash french.sh
-```
+``` ]
 - On appuie sur Y pour valider
 - On appuie sur <kbd>Enter</kbd> pour la location du fichier
 - puis 2 fois sur entrée pour la passphrase
