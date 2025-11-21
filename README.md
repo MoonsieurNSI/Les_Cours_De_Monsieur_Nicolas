@@ -24,10 +24,13 @@ bash french.sh
 # On appuie sur Y pour valider
 # On appuie sur `<kbb>Enter</kbd>` pour la location du fichier
 # puis 2 fois sur entrée pour la passphrase
-# On copie la clé publique dans github
-# snapshot dans une ça marche bien
-# sinon?? on cherche un truc simple
-# puis...
+# On copie la clé publique depuis https://paste.rs/xxxxx
+# snapshot dans une ça marche bien sur une IA aussi
+# Dans github, on clique sur son icône en haut à droite 
+# puis menu settings
+# puis à gauche le menu SSH and GPG keys
+# On colle la clé publique SSH
+# on retourne sur la VM si on n'y était pas
 # On change le nom du repo avec le sien
 cd ./VmLinux
 # Enfin on clone son repo
