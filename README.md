@@ -11,6 +11,7 @@ Ensuite,
 ```bash
 chmod +x french.sh
 bash french.sh
+#On appuie sur Y pour valider puis 2 fois sur entrée pour la passphrase
 #on copie la clé publique dans github puis
 #on change le nom du repo avec le sien
 cd VmLinux/Les_Cours_De_Monsieur_Nicolas
