@@ -1,7 +1,7 @@
 #!/bin/bash
 #########
 # Le code suivant modifie le clavier qwerty <---> azerty
-# On le fait graphiquement
+# On peut le faire graphiquement
 #get  current layout
 #current_layout=$(setxkbmap -query | grep layout | awk '{print $2}')
 
@@ -15,7 +15,11 @@
 #########
 
 #install git
+sudo apt update
 sudo apt install git
+sudo pat install postresql
+
+#répertoire de travail pour cloner notre dépôt
 mkdir VmLinux
 cd VmLinux
 
