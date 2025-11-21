@@ -19,18 +19,23 @@ sudo apt install git
 mkdir VmLinux
 cd VmLinux
 
-#config git
-#remplacer "user" et "email"
+####Config git#####
+#remplacer "MoonsieurNSI" par votre "user" github
 git config --global user.name "MoonsieuNSI"
+
+#modifier l'email avec votre "email" github
 git config --global user.email "patrice.nicolas7@monlycee.net"
 
 git config --global --list
 
 #cle ssh
+#modifier l'email avec votre "email" github
 ssh-keygen -t ed25519 -C "patrice.nicolas7@monlycee.net"
 
+# décommenter la ligne suivante pour afficher la clé
 # cat ~/.ssh/id_ed25519.pub
-# On envoie la clé publique sur paste.rs
+
+# Sinon on envoie la clé publique sur paste.rs
 curl -F "file=@$HOME/.ssh/id_ed25519.pub" https://paste.rs
-echo "/nCopier le lien précédent dans votre navigateur/n"
+echo -e "\nCopier le lien précédent dans votre navigateur\n"
 echo "copier la clé dans github"
