@@ -6,7 +6,7 @@
 
 # Changement graphique du Clavier vers AZERTY
 - Menu Demarrer de LinuxMint
-- Cliquer sur l'icône `System Settings Control` à gauche
+- Cliquer sur l'icône `System Settings *Control Center*` à gauche
 - Cliquer sur l'icône `keyboard` dans le section `Hardware`
 - Cliquer sur l'onglet `Layouts` en haut de la fenêtre
 - Cliquer sur le bouton `+` en bas à droite de la fenêtre
