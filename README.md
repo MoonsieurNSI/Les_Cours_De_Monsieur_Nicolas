@@ -21,7 +21,9 @@ Ensuite,
 ```bash
 chmod +x french.sh
 bash french.sh
-# On appuie sur Y pour valider puis 2 fois sur entrée pour la passphrase
+# On appuie sur Y pour valider
+# On appuie sur `<kbb>Enter</kbd>` pour la location du fichier
+# puis 2 fois sur entrée pour la passphrase
 # On copie la clé publique dans github
 # snapshot dans une ça marche bien
 # sinon?? on cherche un truc simple
