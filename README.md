@@ -10,7 +10,7 @@
 - Cliquer sur l'icône `keyboard` dans le section `Hardware`
 - Cliquer sur l'onglet `Layouts` en haut de la fenêtre
 - Cliquer sur le bouton `+` en bas à droite de la fenêtre
-- Taper `french` dans le formulaire de recher puis cliquer sur `add`
+- Taper `french` dans le formulaire de recherche puis cliquer sur `add`
 - Cliquer sur le drapeau `🇺🇸` en bas à droite du bureau (à côté de l'horloge)
 - Cliquer sur le drapeau `🇫🇷` pour changer la langue
 
