@@ -12,9 +12,7 @@
 #	echo "On switch vers le clavier US..."
 #	setxkbmap us
 #fi
-
-#set rules
-chmod +x french.sh
+#########
 
 #install git
 sudo apt install git
@@ -34,5 +32,5 @@ ssh-keygen -t ed25519 -C "patrice.nicolas7@monlycee.net"
 # cat ~/.ssh/id_ed25519.pub
 # On envoie la clé publique sur paste.rs
 curl -F "file=@$HOME/.ssh/id_ed25519.pub" https://paste.rs
-echo "\n copier le lien précédent dans votre navigateur"
+echo "\n copier le lien précédent dans votre navigateur\n"
 echo "copier la clé dans github"
