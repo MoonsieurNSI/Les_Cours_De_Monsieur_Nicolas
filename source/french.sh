@@ -1,5 +1,7 @@
 #!/bin/bash
-
+#########
+# Le code suivant modifie le clavier qwerty <---> azerty
+# On le fait graphiquement
 #get  current layout
 #current_layout=$(setxkbmap -query | grep layout | awk '{print $2}')
 
