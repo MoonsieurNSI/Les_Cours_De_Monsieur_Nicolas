@@ -14,4 +14,8 @@ fi
 #set rules
 chmod +x french.sh
 
+#set git
+sudo apt install git
+mkdir VmLinux
+cd VmLinux
 
