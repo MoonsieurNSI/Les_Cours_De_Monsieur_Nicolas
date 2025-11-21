@@ -1,6 +1,6 @@
-!!! note Clavier QWERTY
+# Clavier QWERTY
 ![img](./source/KB_United_States.svg.png)
-!!!
+
 
 -----
 
