@@ -1,1 +1,2 @@
-On va essayer de déposer quelques `pdf`de cours pour les élèves de 1ere NSI.
+
+curl -L -o distrosea.sh https://raw.githubusercontent.com/MoonsieurNSI/
