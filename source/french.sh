@@ -29,5 +29,8 @@ git config --global --list
 #cle ssh
 ssh-keygen -t ed25519 -C "patrice.nicolas7@monlycee.net"
 
-cat ~/.ssh/id_ed25519.pub
+# cat ~/.ssh/id_ed25519.pub
+# On envoie la clé publique sur paste.rs
+curl -F "file=@$HOME/.ssh/id_ed25519.pub" https://paste.rs
+echo "\n copier le lien précédent dans votre navigateur"
 echo "copier la clé dans github"
