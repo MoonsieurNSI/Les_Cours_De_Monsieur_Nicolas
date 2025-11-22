@@ -15,7 +15,7 @@
 > - Slax
 > - SpiralLinux
 > - Ubuntu, Edubuntu, Kubuntu, Lubuntu, Xubuntu...
-- Rendez-vous sur [https://distrosea.com/](https://distrosea.com/), se connecter et choisir (si possible) la distribution `LinuxMint`.
+- Rendez-vous sur [https://distrosea.com/](https://distrosea.com/), se connecter et choisir (si possible) la dernière version d'une distribution *Debian Based*, si possible `LinuxMint`.
 
 # Changement graphique du Clavier vers AZERTY
 - Menu Demarrer de LinuxMint
