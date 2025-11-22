@@ -7,23 +7,20 @@
 > [!IMPORTANT]
 > Le tutoriel suivant a été écrit sur `LinuxMint` mais devrait fonctionner (avec plus ou moins d'ajustements) sur les distributions Linux basées sur `Debian` parmi lesquelles:
 > - [x] LinuxMint
-> - [ ]  LinuxMint Debian Edition
+> - [x] LinuxMint Debian Edition
 > - [x] Debian
-> - ElementaryOS
-> - LinuxLite
-> - PureOS
-> - Slax
-> - SpiralLinux
-> - Ubuntu, Edubuntu, Kubuntu, Lubuntu, Xubuntu...
+> - [x] PureOS
+> - [x] SpiralLinux
+> - [ ] Ubuntu Cinnamon
+> - [ ] Edubuntu, Kubuntu, Lubuntu, Xubuntu...
 - Rendez-vous sur [https://distrosea.com/](https://distrosea.com/), se connecter et choisir (si possible) la dernière version d'une distribution *Debian Based*, si possible `LinuxMint`.
-- Si possible, choisir son bureau préféré, par exemple `Cinnamon`
+- Quand cela est possible, choisir son bureau préféré: par exemple `Cinnamon`, `Gnome`, `xfce`, `Plasma`, ...
 
 -------------
 
 # Changement graphique du Clavier vers AZERTY
 > [!IMPORTANT] 
 > Si votre clavier est Qwerty alors tentez de le modifier graphiquement.
-> Un script sera disponible bientôt pour le faire en console.
 > - Menu Demarrer de LinuxMint
 > - Cliquer sur l'icône `System Settings *Control Center*` à gauche
 > - Cliquer sur l'icône `keyboard` dans le section `Hardware`
