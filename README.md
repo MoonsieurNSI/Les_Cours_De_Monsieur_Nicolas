@@ -13,7 +13,7 @@
 
 -------------
 
-# Changement graphique du Clavier vers AZERTY
+### Changement graphique du Clavier vers AZERTY
 > [!IMPORTANT]
 > - Ouvrir un `Terminal` et appuyer sur la touche <kbd>a</kbd>.
 > - Si la lettre `q` apparaît alors votre clavier est `Qwerty`.
@@ -38,7 +38,7 @@
 > ```bash
 > sudo apt install curl
 > ```
-> **Avant de commencer quoi que ce soit, assurez-vous que votre dépot `github` est crée et modifier le script `french.sh` en conséquence : c'est crucial !**
+> **Avant de commencer quoi que ce soit, assurez-vous que votre dépot `github` est crée et modifier le script `setup.sh` en conséquence : c'est crucial !**
 
 - Ouvrir `Firefox` et cliquer plusieur fois sur `skip this step` et enfin `start browsing`
 - Dans la barre d'adresse du navigateur taper [https://sharetext.io/61640708](https://sharetext.io/61640708) pour copier la première commande (ci-après)...ou taper la directement dans votre console si vous êtes chaud.
