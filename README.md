@@ -7,7 +7,7 @@
 > [!IMPORTANT]
 > Le tutoriel suivant a été écrit sur `LinuxMint` mais devrait fonctionner (avec plus ou moins d'ajustements) sur les distributions Linux basées sur `Debian` parmi lesquelles:
 > - [x] LinuxMint
-> - []  LinuxMint Debian Edition
+> - [ ]  LinuxMint Debian Edition
 > - [x] Debian
 > - ElementaryOS
 > - LinuxLite
