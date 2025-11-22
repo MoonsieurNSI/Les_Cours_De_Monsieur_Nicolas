@@ -34,14 +34,6 @@
 
 -------------
 
-- Ouvrir `Firefox` et cliquer plusieur fois sur `skip this step` et enfin `start browsing`
-- Dans la barre d'adresse du navigateur taper [https://sharetext.io/b4260d55](https://sharetext.io/b4260d55) pour récupérer la première commande (ci-après)...ou taper la directement dans votre console si vous êtes chaud.
-
-```bash
-curl -L -o french.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De_Monsieur_Nicolas/refs/heads/main/source/french.sh \
-  && chmod +x french.sh \
-  && ./french.sh
-```
 > [!WARNING]
 > Ouvrir un terminal et s'assurer que la commande `curl` est présente:
 > ```bash
@@ -51,7 +43,20 @@ curl -L -o french.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De
 > ```bash
 > sudo apt install curl
 > ```
+
+- Ouvrir `Firefox` et cliquer plusieur fois sur `skip this step` et enfin `start browsing`
+- Dans la barre d'adresse du navigateur taper [https://sharetext.io/b4260d55](https://sharetext.io/b4260d55) pour récupérer la première commande (ci-après)...ou taper la directement dans votre console si vous êtes chaud.
+
+```bash
+curl -L -o french.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De_Monsieur_Nicolas/refs/heads/main/source/french.sh \
+  && chmod +x french.sh \
+  && ./french.sh
+```
+
 - Ouvrir un terminal puis copier/exécuter la commande `curl`
+
+------------
+  
 - On appuie sur <kbd>y</kbd> puis <kbd>Enter</kbd> pour valider
 - On appuie sur <kbd>Enter</kbd> pour la location du fichier (*Enter file in which to save the key:*)
 - puis 2 fois sur <kbd>Enter</kbd> pour la passphrase (*Enter passphrase*)
