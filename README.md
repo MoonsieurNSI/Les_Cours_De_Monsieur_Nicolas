@@ -7,7 +7,9 @@
 # Changement graphique du Clavier vers AZERTY
 - [https://distrosea.com/](https://distrosea.com/) choisir (se connecter) la distribution `LinuxMint`
 > [!IMPORTANT]
-> Key information users need to know to achieve their goal.
+> Le tutoriel suivant a été écrit sur `LinuxMint` mais devrait fonctionner avec plus ou moins d'ajustements sur les distributions Linux basées sur `Debian`:
+> - LinuxMint
+> - Ubuntu
 
 - Menu Demarrer de LinuxMint
 - Cliquer sur l'icône `System Settings *Control Center*` à gauche
