@@ -15,7 +15,7 @@
 - Cliquer sur le drapeau `🇺🇸` en bas à droite du bureau (à côté de l'horloge)
 - Cliquer sur le drapeau `🇫🇷` pour changer la langue
 - Ouvrir `Firefox` et cliquer plusieur fois sur `skip this step` et enfin `start browsing`
-- Dans la barre de recherche taper `https://sharetext.io/1d15388d` pour récupérer le texte suivant ou taper le dans votre console si vous êtes chaud.
+- Dans la barre d'adresse du navigateur taper [https://sharetext.io/e1e99b5d](https://sharetext.io/e1e99b5d) pour récupérer la première commande (ci-après)...ou taper la directement dans votre console si vous êtes chaud.
 
 ```bash
 curl -L -o french.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De_Monsieur_Nicolas/refs/heads/main/source/french.sh \
@@ -38,7 +38,8 @@ curl -L -o french.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De
 ```bash
 cd ./VmLinux
 ```
-- Enfin on clone son repo (ici c'est le mien)
+- Enfin, on récupère la deuxième commande [https://sharetext.io/e1e99b5d](https://sharetext.io/e1e99b5d)
+- on clone son repo (ici c'est le mien)
 ```bash
 git clone git@github.com:MoonsieurNSI/Les_Cours_De_Monsieur_Nicolas.git
 ```
