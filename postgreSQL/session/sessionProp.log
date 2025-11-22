@@ -1,0 +1,86 @@
+/******** QUERY *********/
+DROP TABLE IF EXISTS Animal;
+/************************/
+
+DROP TABLE
+/******** QUERY *********/
+DROP TABLE IF EXISTS Proprietaire;
+/************************/
+
+DROP TABLE
+/******** QUERY *********/
+CREATE TABLE Proprietaire (
+    ProID SERIAL PRIMARY KEY,
+    nom VARCHAR(255) NOT NULL,
+    prenom VARCHAR(255) NOT NULL
+);
+/************************/
+
+CREATE TABLE
+/******** QUERY *********/
+CREATE TABLE Animal (
+    AniID SERIAL PRIMARY KEY,
+    espece VARCHAR(255) NOT NULL,
+    sexe CHAR(1),
+    naissance DATE,
+    nom VARCHAR(255) NOT NULL,
+    commentaire TEXT,
+    ProId INT, 
+    FOREIGN KEY (ProId) REFERENCES Proprietaire(ProID)
+);
+/************************/
+
+CREATE TABLE
+/******** QUERY *********/
+INSERT INTO Proprietaire (nom, prenom)
+VALUES
+('NICOLAS', 'Patrice'),
+('DUHEM', 'Aude');
+/************************/
+
+INSERT 0 2
+/******** QUERY *********/
+INSERT INTO Animal (espece, sexe, naissance, nom, commentaire, ProId)
+VALUES
+('chien', 'M', '2015-02-01', 'Linux', 'Gentil', 1),
+('chien', 'F', '2017-04-01', 'Nova', 'Peureuse', 2);
+/************************/
+
+INSERT 0 2
+/******** QUERY *********/
+INSERT INTO Animal (espece, naissance, nom, ProId)
+VALUES
+('chat', '2020-11-01', 'PilePoil', 1);
+/************************/
+
+INSERT 0 1
+/******** QUERY *********/
+INSERT INTO Animal (espece, sexe,  naissance, nom, ProId)
+VALUES
+('lapin', 'M', '2020-07-01', 'Jannot', 2);
+/************************/
+
+INSERT 0 1
+/******** QUERY *********/
+SELECT * FROM animal;
+/************************/
+
+ aniid | espece | sexe | naissance  |   nom    | commentaire | proid 
+-------+--------+------+------------+----------+-------------+-------
+     1 | chien  | M    | 2015-02-01 | Linux    | Gentil      |     1
+     2 | chien  | F    | 2017-04-01 | Nova     | Peureuse    |     2
+     3 | chat   |      | 2020-11-01 | PilePoil |             |     1
+     4 | lapin  | M    | 2020-07-01 | Jannot   |             |     2
+(4 rows)
+
+/******** QUERY *********/
+SELECT nom AS blase, espece AS race FROM animal 
+WHERE sexe='M';
+/************************/
+
+ blase  | race  
+--------+-------
+ Linux  | chien
+ Jannot | lapin
+(2 rows)
+
