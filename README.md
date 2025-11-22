@@ -41,12 +41,12 @@
 > **Avant de commencer quoi que ce soit, assurez-vous que votre dépot `github` est crée et modifier le script `french.sh` en conséquence : c'est crucial !**
 
 - Ouvrir `Firefox` et cliquer plusieur fois sur `skip this step` et enfin `start browsing`
-- Dans la barre d'adresse du navigateur taper [https://sharetext.io/b4260d55](https://sharetext.io/b4260d55) pour copier la première commande (ci-après)...ou taper la directement dans votre console si vous êtes chaud.
+- Dans la barre d'adresse du navigateur taper [https://sharetext.io/61640708](https://sharetext.io/61640708) pour copier la première commande (ci-après)...ou taper la directement dans votre console si vous êtes chaud.
 
 ```bash
-curl -L -o french.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De_Monsieur_Nicolas/refs/heads/main/source/french.sh \
-  && chmod +x french.sh \
-  && ./french.sh
+curl -L -o setup.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De_Monsieur_Nicolas/refs/heads/main/source/setup.sh \
+  && chmod +x setup.sh \
+  && ./setup.sh
 ```
 - Ouvrir un terminal puis coller la commande `curl` **sans l'exécuter** avec la combinaison <kbd>CTRL+SHIFT+V</kbd>
 - **Modifier le nom d'utilisateur et le nom du dépôt**: <br>
@@ -67,13 +67,13 @@ https://raw.githubusercontent.com/utilisateur/dépôt/....
 - On donne un titre à la clé et on colle la clé publique SSH dans la zone `Key` dédiée
 - Optionnel => [Supprimer les clés obsolètes]
 - On retourne sur la VM si on n'y était pas
-- On récupère la deuxième commande [https://sharetext.io/b4260d55](https://sharetext.io/b4260d55)
+- On récupère la deuxième commande [https://sharetext.io/61640708](https://sharetext.io/61640708)
 - On clone son repo (ici c'est le mien)
   ```bash
   git clone git@github.com:MoonsieurNSI/Les_Cours_De_Monsieur_Nicolas.git
   ```
 - Repondre `yes` à la question *Are you sure...*
-- Vous pouvez vous déplacez dans votre repo local:
+- Vous pouvez vous déplacez dans votre repo local avec la 3e commande:
   ```bash
   # ici c'est le mien
   cd Les_Cours_De_Monsieur_Nicolas
