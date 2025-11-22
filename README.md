@@ -44,6 +44,7 @@
 > ```bash
 > sudo apt install curl
 > ```
+> Avant de commencer quoi que ce soit, assurez-vous que votre dépot `github` est crée et modifier le script `french.sh` en conséquence : c'est crucial !
 
 - Ouvrir `Firefox` et cliquer plusieur fois sur `skip this step` et enfin `start browsing`
 - Dans la barre d'adresse du navigateur taper [https://sharetext.io/b4260d55](https://sharetext.io/b4260d55) pour récupérer la première commande (ci-après)...ou taper la directement dans votre console si vous êtes chaud.
@@ -65,7 +66,8 @@ curl -L -o french.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De
 - Autre Option => [snapshot dans une ça marche bien sur une IA aussi]
 - Dans github, on clique sur son icône en haut à droite 
 - puis menu `settings` puis à gauche on descend vers le menu `SSH and GPG keys`
-- On donne un titre à la clée et colle cette clé publique SSH dans la zone `Key` dédiée
+- On clique sur `New SSH Key`
+- On donne un titre à la clé et on colle la clé publique SSH dans la zone `Key` dédiée
 - Optionnel => [Supprimer les clés obsolètes]
 - On retourne sur la VM si on n'y était pas
 - On récupère la deuxième commande [https://sharetext.io/b4260d55](https://sharetext.io/b4260d55)
