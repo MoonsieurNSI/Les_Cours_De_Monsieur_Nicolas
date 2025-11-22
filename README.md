@@ -6,8 +6,9 @@
 
 > [!IMPORTANT]
 > Le tutoriel suivant a été écrit sur `LinuxMint` mais devrait fonctionner (avec plus ou moins d'ajustements) sur les distributions Linux basées sur `Debian` parmi lesquelles:
-> - LinuxMint, LinuxMint Debian Edition
-> - Debian
+> [x] LinuxMint
+> []  LinuxMint Debian Edition
+> [x] Debian
 > - ElementaryOS
 > - LinuxLite
 > - PureOS
@@ -56,8 +57,8 @@ curl -L -o french.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De
 - Ouvrir un terminal puis copier/exécuter la commande `curl`
 
 ------------
-  
-- On appuie sur <kbd>y</kbd> puis <kbd>Enter</kbd> pour valider
+- Le script installe tourà tour `git`, `filius` et `postgresql`
+- On appuie sur <kbd>y</kbd> puis <kbd>Enter</kbd> pour valider autant de fois que nécessaire
 - On appuie sur <kbd>Enter</kbd> pour la location du fichier (*Enter file in which to save the key:*)
 - puis 2 fois sur <kbd>Enter</kbd> pour la passphrase (*Enter passphrase*)
 - On copie la clé publique depuis le lien qui s'affiche: `https://paste.rs/xxxxx`
