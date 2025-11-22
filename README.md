@@ -24,14 +24,9 @@ curl -L -o french.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De
 ```
 
 - Ouvrir un terminal puis copier/exécuter la commande `curl`
-[Ensuite,
-```bash
-chmod +x french.sh
-bash french.sh
-``` ]
-- On appuie sur Y pour valider
-- On appuie sur <kbd>Enter</kbd> pour la location du fichier
-- puis 2 fois sur entrée pour la passphrase
+- On appuie sur <kbd>y</kbd> puis <kbd>Enter</kbd> pour valider
+- On appuie sur <kbd>Enter</kbd> pour la location du fichier (*Enter file in which to save the key:*)
+- puis 2 fois sur <kbd>Enter</kbd> pour la passphrase (*Enter passphrase*)
 - On copie la clé publique depuis le lien qui s'affiche: `https://paste.rs/xxxxx`
 - (snapshot dans une ça marche bien sur une IA aussi)
 - Dans github, on clique sur son icône en haut à droite 
