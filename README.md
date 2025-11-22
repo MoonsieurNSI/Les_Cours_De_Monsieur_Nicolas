@@ -28,11 +28,11 @@ curl -L -o french.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De
 - On appuie sur <kbd>Enter</kbd> pour la location du fichier (*Enter file in which to save the key:*)
 - puis 2 fois sur <kbd>Enter</kbd> pour la passphrase (*Enter passphrase*)
 - On copie la clé publique depuis le lien qui s'affiche: `https://paste.rs/xxxxx`
-- (snapshot dans une ça marche bien sur une IA aussi)
+- Autre Option => [snapshot dans une ça marche bien sur une IA aussi]
 - Dans github, on clique sur son icône en haut à droite 
-- puis menu settings
-- puis à gauche le menu SSH and GPG keys
-- On colle la clé publique SSH
+- puis menu `settings` puis à gauche on descend vers le menu `SSH and GPG keys`
+- On donne un titre à la clée et colle cette clé publique SSH dans la zone `Key` dédiée
+- Optionnel => [Supprimer les clés obsolètes]
 - On retourne sur la VM si on n'y était pas
 - On change le nom du repo avec le sien
 ```bash
