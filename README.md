@@ -15,10 +15,12 @@
 - Cliquer sur le drapeau `🇺🇸` en bas à droite du bureau (à côté de l'horloge)
 - Cliquer sur le drapeau `🇫🇷` pour changer la langue
 - Ouvrir `Firefox` et cliquer plusieur fois sur `skip this step` et enfin `start browsing`
-- Dans la barre de recherche taper `https://sharetext.io/f4d3ef11` pour récupérer le texte suivant ou taper le dans votre console si vous êtes chaud.
+- Dans la barre de recherche taper `https://sharetext.io/1d15388d` pour récupérer le texte suivant ou taper le dans votre console si vous êtes chaud.
 
 ```bash
-bash<(curl -L https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De_Monsieur_Nicolas/refs/heads/main/source/french.sh)
+curl -L -o french.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De_Monsieur_Nicolas/refs/heads/main/source/french.sh \
+  && chmod +x french.sh \
+  && ./french.sh
 ```
 
 - Ouvrir un terminal puis copier/exécuter la commande `curl`
