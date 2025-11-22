@@ -34,12 +34,8 @@ curl -L -o french.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De
 - On donne un titre à la clée et colle cette clé publique SSH dans la zone `Key` dédiée
 - Optionnel => [Supprimer les clés obsolètes]
 - On retourne sur la VM si on n'y était pas
-- On change le nom du repo avec le sien
-```bash
-cd ./VmLinux
-```
-- Enfin, on récupère la deuxième commande [https://sharetext.io/e1e99b5d](https://sharetext.io/e1e99b5d)
-- on clone son repo (ici c'est le mien)
+- On récupère la deuxième commande [https://sharetext.io/e1e99b5d](https://sharetext.io/e1e99b5d)
+- On clone son repo (ici c'est le mien)
 ```bash
 git clone git@github.com:MoonsieurNSI/Les_Cours_De_Monsieur_Nicolas.git
 ```
