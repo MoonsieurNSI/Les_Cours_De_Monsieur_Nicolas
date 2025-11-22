@@ -37,6 +37,8 @@ curl -L -o french.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De
 - On récupère la deuxième commande [https://sharetext.io/1fb0ef13](https://sharetext.io/1fb0ef13)
 - On clone son repo (ici c'est le mien)
 ```bash
-git clone git@github.com:MoonsieurNSI/Les_Cours_De_Monsieur_Nicolas.git
+git clone git@github.com:MoonsieurNSI/Les_Cours_De_Monsieur_Nicolas.git \
+  && cd Les_Cours_De_Monsieur_Nicolas \
+  && echo -e "C'est parti !!! \n"
 ```
 - Repondre `yes` à la question *Are you sure...*
