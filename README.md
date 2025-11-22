@@ -1,5 +1,5 @@
 # Clavier QWERTY
-![img](./source/KB_United_States.svg.png)
+![img](./source/QwertyKB.png)
 
 
 -----
