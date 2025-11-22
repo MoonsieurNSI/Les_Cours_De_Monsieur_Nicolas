@@ -6,4 +6,4 @@ curl -L -o french.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De
 ######Deuxième Commande#######
 git clone git@github.com:MoonsieurNSI/Les_Cours_De_Monsieur_Nicolas.git \
   && cd Les_Cours_De_Monsieur_Nicolas \
-  echo -e "C'est parti !!! \n"
+  && echo -e "C'est parti !!! \n"
