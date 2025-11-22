@@ -3,14 +3,7 @@
 sudo -u postgres -i psql
 ```
 
-- On enregistre la session psql
+- Si on veut enregistrer la session dans un fichier `/tmp/session.log`
 ```bash
-\set ECHO all
-\o | tee -a session.log
-
-CREATE TABLE test(id int);
-SELECT now();
-
-\o     -- stop logging
+sudo -u postgres -i psql -a -L /tmp/session.log
 ```
-
