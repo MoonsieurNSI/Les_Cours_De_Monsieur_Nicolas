@@ -19,5 +19,5 @@ asciinema play ./pathToFile
 # pause
 <kbd>SPACE</kbd>
 
-#link
+# link
 [https://asciinema.org](https://asciinema.org)
