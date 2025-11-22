@@ -10,22 +10,26 @@
 > - Debian
 > - ElementaryOS
 > - LinuxLite
-> - Primtux
 > - PureOS
 > - Slax
 > - SpiralLinux
 > - Ubuntu, Edubuntu, Kubuntu, Lubuntu, Xubuntu...
 - Rendez-vous sur [https://distrosea.com/](https://distrosea.com/), se connecter et choisir (si possible) la dernière version d'une distribution *Debian Based*, si possible `LinuxMint`.
+- Si possible, choisir son bureau préféré, par exemple `Cinnamon`
 
 # Changement graphique du Clavier vers AZERTY
-- Menu Demarrer de LinuxMint
-- Cliquer sur l'icône `System Settings *Control Center*` à gauche
-- Cliquer sur l'icône `keyboard` dans le section `Hardware`
-- Cliquer sur l'onglet `Layouts` en haut de la fenêtre
-- Cliquer sur le bouton `+` en bas à droite de la fenêtre
-- Taper `french` dans le formulaire de recherche puis cliquer sur `add`
-- Cliquer sur le drapeau `🇺🇸` en bas à droite du bureau (à côté de l'horloge)
-- Cliquer sur le drapeau `🇫🇷` pour changer la langue
+> [!IMPORTANT] Clavier Qwerty
+> SI votre clavier est Qwerty alors tentez de le modifier graphiquement.
+> Un script sera disponible bientôt pour le faire en console.
+> - Menu Demarrer de LinuxMint
+> - Cliquer sur l'icône `System Settings *Control Center*` à gauche
+> - Cliquer sur l'icône `keyboard` dans le section `Hardware`
+> - Cliquer sur l'onglet `Layouts` en haut de la fenêtre
+> - Cliquer sur le bouton `+` en bas à droite de la fenêtre
+> - Taper `french` dans le formulaire de recherche puis cliquer sur `add`
+> - Cliquer sur le drapeau `🇺🇸` en bas à droite du bureau (à côté de l'horloge)
+> - Cliquer sur le drapeau `🇫🇷` pour changer la langue
+
 - Ouvrir `Firefox` et cliquer plusieur fois sur `skip this step` et enfin `start browsing`
 - Dans la barre d'adresse du navigateur taper [https://sharetext.io/b4260d55](https://sharetext.io/b4260d55) pour récupérer la première commande (ci-après)...ou taper la directement dans votre console si vous êtes chaud.
 
