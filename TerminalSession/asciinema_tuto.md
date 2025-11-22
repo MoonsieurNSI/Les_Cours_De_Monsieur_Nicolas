@@ -5,7 +5,7 @@ sudo apt install asciinema
 
 # record session
 ```sh
-`asciinema rec ./pathToFile
+asciinema rec ./pathToFile
 ```
 # stop record
 ```sh
