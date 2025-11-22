@@ -4,13 +4,20 @@
 
 -----
 
-# Changement graphique du Clavier vers AZERTY
-- [https://distrosea.com/](https://distrosea.com/) choisir (se connecter) la distribution `LinuxMint`
 > [!IMPORTANT]
-> Le tutoriel suivant a été écrit sur `LinuxMint` mais devrait fonctionner avec plus ou moins d'ajustements sur les distributions Linux basées sur `Debian`:
-> - LinuxMint
-> - Ubuntu
+> Le tutoriel suivant a été écrit sur `LinuxMint` mais devrait fonctionner (avec plus ou moins d'ajustements) sur les distributions Linux basées sur `Debian` parmi lesquelles:
+> - LinuxMint, LinuxMint Debian Edition
+> - Debian
+> - ElementaryOS
+> - LinuxLite
+> - Primtux
+> - PureOS
+> - Slax
+> - SpiralLinux
+> - Ubuntu, Edubuntu, Kubuntu, Lubuntu, Xubuntu...
+- Rendez-vous sur [https://distrosea.com/](https://distrosea.com/), se connecter et choisir (si possible) la distribution `LinuxMint`.
 
+# Changement graphique du Clavier vers AZERTY
 - Menu Demarrer de LinuxMint
 - Cliquer sur l'icône `System Settings *Control Center*` à gauche
 - Cliquer sur l'icône `keyboard` dans le section `Hardware`
