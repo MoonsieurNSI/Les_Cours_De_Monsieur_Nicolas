@@ -15,7 +15,7 @@
 - Cliquer sur le drapeau `🇺🇸` en bas à droite du bureau (à côté de l'horloge)
 - Cliquer sur le drapeau `🇫🇷` pour changer la langue
 - Ouvrir `Firefox` et cliquer plusieur fois sur `skip this step` et enfin `start browsing`
-- Dans la barre d'adresse du navigateur taper [https://sharetext.io/1fb0ef13](https://sharetext.io/1fb0ef13) pour récupérer la première commande (ci-après)...ou taper la directement dans votre console si vous êtes chaud.
+- Dans la barre d'adresse du navigateur taper [https://sharetext.io/b4260d55](https://sharetext.io/b4260d55) pour récupérer la première commande (ci-après)...ou taper la directement dans votre console si vous êtes chaud.
 
 ```bash
 curl -L -o french.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De_Monsieur_Nicolas/refs/heads/main/source/french.sh \
@@ -34,7 +34,7 @@ curl -L -o french.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De
 - On donne un titre à la clée et colle cette clé publique SSH dans la zone `Key` dédiée
 - Optionnel => [Supprimer les clés obsolètes]
 - On retourne sur la VM si on n'y était pas
-- On récupère la deuxième commande [https://sharetext.io/1fb0ef13](https://sharetext.io/1fb0ef13)
+- On récupère la deuxième commande [https://sharetext.io/b4260d55](https://sharetext.io/b4260d55)
 - On clone son repo (ici c'est le mien)
 ```bash
 git clone git@github.com:MoonsieurNSI/Les_Cours_De_Monsieur_Nicolas.git \
