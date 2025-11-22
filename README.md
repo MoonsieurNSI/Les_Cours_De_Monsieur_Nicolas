@@ -11,7 +11,7 @@
 > - [x] Debian
 > - [x] PureOS
 > - [x] SpiralLinux
-> - [ ] Ubuntu Cinnamon
+> - [x] Ubuntu Cinnamon
 > - [ ] Edubuntu, Kubuntu, Lubuntu, Xubuntu...
 - Rendez-vous sur [https://distrosea.com/](https://distrosea.com/), se connecter et choisir (si possible) la dernière version d'une distribution *Debian Based*, si possible `LinuxMint`.
 - Quand cela est possible, choisir son bureau préféré: par exemple `Cinnamon`, `Gnome`, `xfce`, `Plasma`, ...
@@ -19,16 +19,18 @@
 -------------
 
 # Changement graphique du Clavier vers AZERTY
-> [!IMPORTANT] 
-> Si votre clavier est Qwerty alors tentez de le modifier graphiquement.
-> - Menu Demarrer de LinuxMint
-> - Cliquer sur l'icône `System Settings *Control Center*` à gauche
-> - Cliquer sur l'icône `keyboard` dans le section `Hardware`
-> - Cliquer sur l'onglet `Layouts` en haut de la fenêtre
-> - Cliquer sur le bouton `+` en bas à droite de la fenêtre
-> - Taper `french` dans le formulaire de recherche puis cliquer sur `add`
-> - Cliquer sur le drapeau `🇺🇸` en bas à droite du bureau (à côté de l'horloge)
-> - Cliquer sur le drapeau `🇫🇷` pour changer la langue
+> [!IMPORTANT]
+> - Ouvrir un `Terminal` et appuyer sur la touche <kbd>a<kbd>.
+> - Si la lettre `q` apparaît alors votre clavier est `Qwerty`.
+> - Tentez de le modifier graphiquement:
+>   - Avec un bureau `Cinnamon`,
+>   - Cliquer sur l'icône `System Settings *Control Center*` 
+>   - Cliquer sur l'icône `keyboard` dans le section `Hardware`
+>   - Cliquer sur l'onglet `Layouts` en haut de la fenêtre
+>   - Cliquer sur le bouton `+` en bas à droite de la fenêtre pour ajouter une autre langue
+>   - Taper `french` dans le formulaire de recherche puis cliquer sur `add`
+>   - Cliquer sur le drapeau `🇺🇸` en bas à droite du bureau (à côté de l'horloge)
+>   - Cliquer sur le drapeau `🇫🇷` pour changer la langue
 
 -------------
 
