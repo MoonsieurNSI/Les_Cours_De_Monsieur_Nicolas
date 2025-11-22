@@ -70,8 +70,11 @@ https://raw.githubusercontent.com/utilisateur/dépôt/....
 - On récupère la deuxième commande [https://sharetext.io/b4260d55](https://sharetext.io/b4260d55)
 - On clone son repo (ici c'est le mien)
 ```bash
-git clone git@github.com:MoonsieurNSI/Les_Cours_De_Monsieur_Nicolas.git \
-  && cd Les_Cours_De_Monsieur_Nicolas \
-  && echo -e "C'est parti !!! \n"
+git clone git@github.com:MoonsieurNSI/Les_Cours_De_Monsieur_Nicolas.git
 ```
 - Repondre `yes` à la question *Are you sure...*
+- Vous pouvez vous déplacez dans votre repo local:
+  ```bash
+  # ici c'est le mien
+  cd Les_Cours_De_Monsieur_Nicolas
+  ```
