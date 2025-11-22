@@ -20,10 +20,10 @@ echo -e "%%%%%%%%%%%%%%%%%%%%%%%"
 echo -e "On commence par installer git...\n"
 sudo apt install git
 echo -e "Fin d'installation de git...\n"
-echo -e "%%%%%%%%%%%%%%%%%%%%%%%"
-echo -e "On installe filius, Java et tout...\n"
-sudo apt install filius
-echo -e "Fin d'installation de filius...\n"
+# echo -e "%%%%%%%%%%%%%%%%%%%%%%%"
+# echo -e "On installe filius, Java et tout...\n"
+# sudo apt install filius
+# echo -e "Fin d'installation de filius...\n"
 echo -e "%%%%%%%%%%%%%%%%%%%%%%%"
 echo -e "On installe postgresql...\n"
 sudo apt install postgresql
