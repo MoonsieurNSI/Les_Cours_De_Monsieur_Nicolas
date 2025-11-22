@@ -1,17 +1,17 @@
 # install
 sudo apt install asciinema
 
-#record session
+# record session
 asciinema rec ./pathToFile
 
-#stop record
+# stop record
 exit
 
 
-#play session
+# play session
 asciinema play ./pathToFile
 
-#pause
+# pause
 <kbd>SAPCE</kbd>
 
 #link
