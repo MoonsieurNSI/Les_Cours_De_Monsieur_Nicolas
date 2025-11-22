@@ -55,7 +55,7 @@ https://raw.githubusercontent.com/utilisateur/dépôt/....
 ```
 - Appuyer sur <kbd>enter</kbd> pour exécuter la commande
 ------------
-- Le script installe tourà tour `git`, `filius` et `postgresql`
+- Le script installe tour à tour `git` et `postgresql`
 - On appuie sur <kbd>y</kbd> puis <kbd>Enter</kbd> pour valider autant de fois que nécessaire
 - On appuie sur <kbd>Enter</kbd> pour la location du fichier (*Enter file in which to save the key:*)
 - puis 2 fois sur <kbd>Enter</kbd> pour la passphrase (*Enter passphrase*)
@@ -69,9 +69,9 @@ https://raw.githubusercontent.com/utilisateur/dépôt/....
 - On retourne sur la VM si on n'y était pas
 - On récupère la deuxième commande [https://sharetext.io/b4260d55](https://sharetext.io/b4260d55)
 - On clone son repo (ici c'est le mien)
-```bash
-git clone git@github.com:MoonsieurNSI/Les_Cours_De_Monsieur_Nicolas.git
-```
+  ```bash
+  git clone git@github.com:MoonsieurNSI/Les_Cours_De_Monsieur_Nicolas.git
+  ```
 - Repondre `yes` à la question *Are you sure...*
 - Vous pouvez vous déplacez dans votre repo local:
   ```bash
