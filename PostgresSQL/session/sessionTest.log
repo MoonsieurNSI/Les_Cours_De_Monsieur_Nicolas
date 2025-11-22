@@ -1,0 +1,26 @@
+                                                 List of databases
+   Name    |  Owner   | Encoding | Locale Provider | Collate |  Ctype  | Locale | ICU Rules |   Access privileges   
+-----------+----------+----------+-----------------+---------+---------+--------+-----------+-----------------------
+ postgres  | postgres | UTF8     | libc            | C.UTF-8 | C.UTF-8 |        |           | 
+ template0 | postgres | UTF8     | libc            | C.UTF-8 | C.UTF-8 |        |           | =c/postgres          +
+           |          |          |                 |         |         |        |           | postgres=CTc/postgres
+ template1 | postgres | UTF8     | libc            | C.UTF-8 | C.UTF-8 |        |           | =c/postgres          +
+           |          |          |                 |         |         |        |           | postgres=CTc/postgres
+(3 rows)
+
+        List of relations
+ Schema | Name | Type  |  Owner   
+--------+------+-------+----------
+ public | test | table | postgres
+(1 row)
+
+/******** QUERY *********/
+DROP TABLE test;
+/************************/
+
+DROP TABLE
+/******** QUERY *********/
+CREATE TABLE test(id int PRIMARY KeY);
+/************************/
+
+CREATE TABLE
