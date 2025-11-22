@@ -73,7 +73,7 @@ https://raw.githubusercontent.com/utilisateur/dépôt/....
   git clone git@github.com:MoonsieurNSI/Les_Cours_De_Monsieur_Nicolas.git
   ```
 - Repondre `yes` à la question *Are you sure...*
-- Vous pouvez vous déplacez dans votre repo local avec la 3e commande:
+- Vous pouvez vous déplacer dans votre repo local avec la 3e commande:
   ```bash
   # ici c'est encore le mien !!!
   cd Les_Cours_De_Monsieur_Nicolas
