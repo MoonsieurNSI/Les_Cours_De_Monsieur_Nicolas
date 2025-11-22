@@ -1,18 +1,23 @@
 # install
+```sh
 sudo apt install asciinema
+```
 
 # record session
-asciinema rec ./pathToFile
-
+```sh
+`asciinema rec ./pathToFile
+```
 # stop record
+```sh
 exit
-
+```
 
 # play session
+```sh
 asciinema play ./pathToFile
-
+```
 # pause
-<kbd>SAPCE</kbd>
+<kbd>SPACE</kbd>
 
 #link
 [https://asciinema.org](https://asciinema.org)
