@@ -55,7 +55,7 @@ curl -L -o french.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De
 ```
 - Ouvrir un terminal puis coller la commande `curl` **sans l'exécuter** avec la combinaison <kbd>CTRL+SHIFT+V</kbd>
 - **Modifier le nom d'utilisateur et le nom du dépôt**: <br>
-https://raw.githubusercontent.com/<utilisateur>/<dépôt>/....
+https://raw.githubusercontent.com/`utilisateur`/`dépôt`/....
 - Appuyer sur <kbd>enter</kbd> pour exécuter la commande
 ------------
 - Le script installe tourà tour `git`, `filius` et `postgresql`
