@@ -18,7 +18,7 @@
 sudo apt update
 sudo apt install git
 sudo apt install filius
-sudo apt install postresql
+sudo apt install postgresql
 
 #répertoire de travail pour cloner notre dépôt
 mkdir VmLinux
