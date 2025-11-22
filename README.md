@@ -20,7 +20,7 @@
 
 # Changement graphique du Clavier vers AZERTY
 > [!IMPORTANT]
-> - Ouvrir un `Terminal` et appuyer sur la touche <kbd>a<kbd>.
+> - Ouvrir un `Terminal` et appuyer sur la touche <kbd>a</kbd>.
 > - Si la lettre `q` apparaît alors votre clavier est `Qwerty`.
 > - Tentez de le modifier graphiquement:
 >   - Avec un bureau `Cinnamon`,
