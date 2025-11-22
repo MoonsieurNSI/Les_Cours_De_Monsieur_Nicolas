@@ -27,7 +27,15 @@ curl -L -o french.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De
   && chmod +x french.sh \
   && ./french.sh
 ```
-
+> [!WARNING]
+> Ouvrir un terminal et s'assurer que la commande `curl` est présente:
+> ```bash
+> which curl
+> ```
+> Si une réponse comme `/usr/bin/curl` apparaît alors c'est ok sinon, il faut commencer par installer la commande
+> ```bash
+> sudo apt install curl
+> ```
 - Ouvrir un terminal puis copier/exécuter la commande `curl`
 - On appuie sur <kbd>y</kbd> puis <kbd>Enter</kbd> pour valider
 - On appuie sur <kbd>Enter</kbd> pour la location du fichier (*Enter file in which to save the key:*)
