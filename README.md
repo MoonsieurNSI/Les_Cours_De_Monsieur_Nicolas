@@ -43,7 +43,7 @@
 > ```bash
 > sudo apt install curl
 > ```
-> Avant de commencer quoi que ce soit, assurez-vous que votre dépot `github` est crée et modifier le script `french.sh` en conséquence : c'est crucial !
+> **Avant de commencer quoi que ce soit, assurez-vous que votre dépot `github` est crée et modifier le script `french.sh` en conséquence : c'est crucial !**
 
 - Ouvrir `Firefox` et cliquer plusieur fois sur `skip this step` et enfin `start browsing`
 - Dans la barre d'adresse du navigateur taper [https://sharetext.io/b4260d55](https://sharetext.io/b4260d55) pour copier la première commande (ci-après)...ou taper la directement dans votre console si vous êtes chaud.
@@ -54,7 +54,8 @@ curl -L -o french.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De
   && ./french.sh
 ```
 - Ouvrir un terminal puis coller la commande `curl` **sans l'exécuter** avec la combinaison <kbd>CTRL+SHIFT+V</kbd>
-- **Modifier le nom d'utilisateur et le nom du dépôt**: https://raw.githubusercontent.com/<utilisateur>/<dépôt>/....
+- **Modifier le nom d'utilisateur et le nom du dépôt**: <br>
+https://raw.githubusercontent.com/<utilisateur>/<dépôt>/....
 - Appuyer sur <kbd>enter</kbd> pour exécuter la commande
 ------------
 - Le script installe tourà tour `git`, `filius` et `postgresql`
