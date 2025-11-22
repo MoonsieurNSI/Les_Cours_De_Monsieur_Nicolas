@@ -64,17 +64,17 @@ https://raw.githubusercontent.com/utilisateur/dépôt/....
 - Dans github, on clique sur son icône en haut à droite 
 - puis menu `settings` puis à gauche on descend vers le menu `SSH and GPG keys`
 - On clique sur `New SSH Key`
-- On donne un titre à la clé et on colle la clé publique SSH dans la zone `Key` dédiée
+- On donne un titre à la clé et on colle la clé publique SSH dans la zone `Key` 
 - Optionnel => [Supprimer les clés obsolètes]
 - On retourne sur la VM si on n'y était pas
 - On récupère la deuxième commande [https://sharetext.io/61640708](https://sharetext.io/61640708)
-- On clone son repo (ici c'est le mien)
+- On clone son repo (ici c'est le mien !!)
   ```bash
   git clone git@github.com:MoonsieurNSI/Les_Cours_De_Monsieur_Nicolas.git
   ```
 - Repondre `yes` à la question *Are you sure...*
 - Vous pouvez vous déplacez dans votre repo local avec la 3e commande:
   ```bash
-  # ici c'est le mien
+  # ici c'est encore le mien !!!
   cd Les_Cours_De_Monsieur_Nicolas
   ```
