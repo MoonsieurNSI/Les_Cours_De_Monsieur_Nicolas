@@ -43,3 +43,4 @@ cd ./VmLinux
 ```bash
 git clone git@github.com:MoonsieurNSI/Les_Cours_De_Monsieur_Nicolas.git
 ```
+- Repondre `yes` à la question *Are you sure...*
