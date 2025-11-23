@@ -56,7 +56,7 @@ curl -L -o setup.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De_
 > - Ouvrir un terminal
 > - Taper la commande `which curl`
 > - En théorie on s'attend à une réponse telle que `/usr/bin/curl`
-> - **En l'absence de réponse, installer l'utilitaire `curl` avec la commande:
+> - **En l'absence de réponse**, installer l'utilitaire `curl` avec la commande:
 >   ```bash
 >   sudo apt install curl
 >   ```
