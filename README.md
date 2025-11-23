@@ -8,7 +8,8 @@
 > - [x] SpiralLinux
 > - [x] MX Linux
 > - [X] Devuan Linux
-> - [x] Sparky Linux 
+> - [x] Sparky Linux
+> - [x] PeppermintOS 
 >  ---------
 >  #### Ubuntu Based:
 > - [x] LinuxMint
