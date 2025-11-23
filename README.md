@@ -60,7 +60,7 @@ curl -L -o setup.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De_
 >   ```bash
 >   sudo apt install curl
 >   ```
-> - Coller la commande `curl` **sans l'exécuter** avec la combinaison <kbd>CTRL+SHIFT+V</kbd>
+> - **Sans l'exécuter**, coller la commande `curl` avec la combinaison <kbd>CTRL+SHIFT+V</kbd>
 > - **Modifier le nom d'utilisateur et le nom du dépôt**: <br>
 >   ```html
 >   https://raw.githubusercontent.com/utilisateur/dépôt/....
@@ -70,7 +70,7 @@ curl -L -o setup.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De_
 
 
 - Le script installe tour à tour `git`, `postgresql`, ...
-- L'exécution doit se mettre en pause lors de la créatin des clés SSH.
+- L'exécution doit se mettre en pause lors de la création des clés SSH.
 - On appuie sur <kbd>Enter</kbd> pour la location du fichier (*Enter file in which to save the key:*)
 - puis 2 fois sur <kbd>Enter</kbd> pour la passphrase (*Enter passphrase*)
 - On copie la clé publique depuis le lien qui s'affiche: `https://paste.rs/xxxxx`
