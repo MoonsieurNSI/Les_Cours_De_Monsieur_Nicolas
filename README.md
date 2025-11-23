@@ -66,7 +66,7 @@
 >     curl -L -o setup.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De_Monsieur_Nicolas/refs/heads/main/source/setup.sh \
 >     && chmod +x setup.sh \
 >     && ./setup.sh
-    ```
+>    ```
 > 
 > - **Modifier le nom d'utilisateur et le nom du dépôt**: <br>
 >   ```html
