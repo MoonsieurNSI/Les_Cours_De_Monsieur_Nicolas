@@ -56,17 +56,16 @@
 >   ```bash
 >   sudo apt install curl
 >   ```
->   Exécuter la commande suivante:
+> - Exécuter la commande suivante:
 >   ```bash
 >   curl https://sharetext.io/api/text?slug=61640708
 >   ```
->   **Sélectionner et copier la Première Commande** avec la combinaison <kbd>CTRL+SHIFT+C</kbd>
+> - **Sélectionner et copier la Première Commande** avec la combinaison <kbd>CTRL+SHIFT+C</kbd>
 > - **Sans l'exécuter**, coller la première commande  avec la combinaison <kbd>CTRL+SHIFT+V</kbd>
 >   ```bash
->    curl -L -o setup.sh
-> https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De_Monsieur_Nicolas/refs/heads/main/source/setup.sh \
->  && chmod +x setup.sh \
->  && ./setup.sh
+>     curl -L -o setup.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De_Monsieur_Nicolas/refs/heads/main/source/setup.sh \
+>     && chmod +x setup.sh \
+>     && ./setup.sh
     ```
 > 
 > - **Modifier le nom d'utilisateur et le nom du dépôt**: <br>
