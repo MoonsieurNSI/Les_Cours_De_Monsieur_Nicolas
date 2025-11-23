@@ -8,12 +8,13 @@
 > - [x] SpiralLinux
 > - [x] MX Linux
 > - [X] Devuan Linux
+> - [x] Sparky Linux 
 >  ---------
 >  #### Ubuntu Based:
 > - [x] LinuxMint
 > - [x] Ubuntu Cinnamon
 > - [ ] Edubuntu, Kubuntu, Lubuntu, Xubuntu...
-- Rendez-vous sur <a href="https://distrosea.com/" target="_blank"> distrosea.com</a>, se connecter et choisir la dernière version d'une distribution *Debian Based*, si possible `LinuxMint`.
+- Rendez-vous sur <a href="https://distrosea.com/" target="_blank"> distrosea.com</a>, se connecter et choisir la dernière version d'une distribution *Debian Based* (de préférence).
 - Quand cela est possible, choisir son bureau préféré: par exemple `Cinnamon`, `Gnome`, `xfce`, `Plasma`, ...
 
 -------------
@@ -52,7 +53,14 @@ curl -L -o setup.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De_
   && ./setup.sh
 ```
 > [!IMPORTANT]
-> - Ouvrir un terminal puis coller la commande `curl` **sans l'exécuter** avec la combinaison <kbd>CTRL+SHIFT+V</kbd>
+> - Ouvrir un terminal
+> - Taper la commande `which curl`
+> - En théorie on s'attend à une réponse telle que `/usr/bin/curl`
+> - **En l'absence de réponse, installer l'utilitaire `curl` avec la commande:
+>   ```bash
+>   sudo apt install curl
+>   ```
+> - Coller la commande `curl` **sans l'exécuter** avec la combinaison <kbd>CTRL+SHIFT+V</kbd>
 > - **Modifier le nom d'utilisateur et le nom du dépôt**: <br>
 >   ```html
 >   https://raw.githubusercontent.com/utilisateur/dépôt/....
