@@ -8,7 +8,7 @@
 > - [x] SpiralLinux
 > - [x] Ubuntu Cinnamon
 > - [ ] Edubuntu, Kubuntu, Lubuntu, Xubuntu...
-- Rendez-vous sur [https://distrosea.com/](https://distrosea.com/){:target="_blank"}, se connecter et choisir la dernière version d'une distribution *Debian Based*, si possible `LinuxMint`.
+- Rendez-vous sur <a href="https://distrosea.com/" target="_blank"> distrosea.com</a>, se connecter et choisir la dernière version d'une distribution *Debian Based*, si possible `LinuxMint`.
 - Quand cela est possible, choisir son bureau préféré: par exemple `Cinnamon`, `Gnome`, `xfce`, `Plasma`, ...
 
 -------------
