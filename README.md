@@ -1,6 +1,6 @@
 
 > [!IMPORTANT]
-> Le tutoriel suivant a été écrit sur `LinuxMint Debian Edition` mais devrait fonctionner (avec plus ou moins d'ajustements) sur les distributions Linux basées sur [./img/debianTree.txt] (Debian)(en fait celles utilisant nativement `apt` comme gestionnaire de packages):
+> Le tutoriel suivant a été écrit sur `LinuxMint Debian Edition` mais devrait fonctionner (avec plus ou moins d'ajustements) sur les distributions Linux basées sur [DebianTree] (Debian)(en fait celles utilisant nativement `apt` comme gestionnaire de packages):
 >  #### Debian Based:
 > - [x] LinuxMint Debian Edition (LMDE)
 > - [x] Debian
