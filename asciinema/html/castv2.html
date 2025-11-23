@@ -8,7 +8,7 @@
         body {
             font-family: sans-serif;
             padding: 20px;
-            background-color: #282a36; /* Dracula background match */
+            background-color: #282a36; 
             color: white;
         }
         .controls {
@@ -21,7 +21,7 @@
             margin-right: 10px;
             font-weight: bold;
         }
-        /* Style the player container to prevent layout shifts */
+        /* Style pour le player*/
         #terminal-demo {
             min-height: 400px; 
         }
@@ -33,11 +33,11 @@
     
     <div class="controls">
         <label for="file-selector">Choose a .cast file:</label>
-        <!-- Input to select the file -->
+        <!-- Input  selection du file -->
         <input type="file" id="file-selector" accept=".cast" />
     </div>
 
-    <!-- Container for the player -->
+    <!-- Container pour le player -->
     <div id="terminal-demo"></div>
 
     <script src="https://cdn.jsdelivr.net/npm/asciinema-player@3.6.3/dist/bundle/asciinema-player.min.js"></script>
@@ -45,23 +45,23 @@
     <script>
         const fileSelector = document.getElementById('file-selector');
         const playerContainer = document.getElementById('terminal-demo');
-        let currentPlayer = null; // To keep track of the active player
+        let currentPlayer = null; // track le player actif
 
-        // Listen for when a user selects a file
+        // Listen
         fileSelector.addEventListener('change', (event) => {
             const file = event.target.files[0];
             
             if (file) {
-                // 1. Cleanup: Remove existing player if one is running
+                // 1. Cleanup: Supprime un player s'il existe
                 if (currentPlayer) {
                     currentPlayer.dispose();
-                    playerContainer.innerHTML = ''; // Double check to clear DOM
+                    playerContainer.innerHTML = ''; // clear DOM
                 }
 
-                // 2. Create a Blob URL (makes the local file accessible to the player)
+                // 2. Rendre le fichier local accessible pour le player
                 const objectUrl = URL.createObjectURL(file);
 
-                // 3. Initialize the player with the new URL
+                // 3. Initialise le player avec la new URL
                 currentPlayer = AsciinemaPlayer.create(
                     objectUrl,
                     playerContainer,
