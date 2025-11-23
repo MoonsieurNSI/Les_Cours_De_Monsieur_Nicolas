@@ -24,9 +24,6 @@ sudo apt -y install curl
 sudo apt -y install tree
 echo -e "Fin d'installation des utilitaires...\n\n\n\n"
 
-#répertoire de travail pour cloner notre dépôt
-mkdir VmLinux
-cd VmLinux
 
 ####DEBUT de Config git#####
 #remplacer "MoonsieurNSI" par votre "user" github
