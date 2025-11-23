@@ -1,12 +1,14 @@
 
 > [!IMPORTANT]
-> Le tutoriel suivant a été écrit sur `LinuxMint` mais devrait fonctionner (avec plus ou moins d'ajustements) sur les distributions Linux basées sur `Debian` ou `Ubuntu` parmi lesquelles:
+> Le tutoriel suivant a été écrit sur `LinuxMint Debian Edition` mais devrait fonctionner (avec plus ou moins d'ajustements) sur les distributions Linux basées sur `Debian` ou `Ubuntu` parmi lesquelles:
 >  #### Debian Based:
 > - [x] LinuxMint Debian Edition (LMDE)
 > - [x] Debian
 > - [x] PureOS
 > - [x] SpiralLinux
-> - [x] MX Linux 
+> - [x] MX Linux
+> - [X] Devuan Linux
+>  ---------
 >  #### Ubuntu Based:
 > - [x] LinuxMint
 > - [x] Ubuntu Cinnamon
@@ -79,7 +81,11 @@ curl -L -o setup.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De_
 - On donne un titre à la clé et on colle la clé publique SSH dans la zone `Key` 
 - [Facultatif => Supprimer les clés obsolètes]
 - Entrer votre mot de passe si github vous demande de confirmer votre identité
-- On retourne sur la VM si on n'y était pas
+- On retourne sur la VM si on n'y était pas et on change de dossier
+  ```bash
+  # Pour travailler dans un dossier dédié
+  cd VM
+  ```
 - On récupère la deuxième commande [https://sharetext.io/61640708](https://sharetext.io/61640708)
 - On clone son repo (ici c'est le mien !!)
   ```bash
