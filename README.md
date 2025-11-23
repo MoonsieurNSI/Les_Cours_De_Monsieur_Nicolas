@@ -48,12 +48,15 @@ curl -L -o setup.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De_
   && chmod +x setup.sh \
   && ./setup.sh
 ```
-- Ouvrir un terminal puis coller la commande `curl` **sans l'exécuter** avec la combinaison <kbd>CTRL+SHIFT+V</kbd>
-- **Modifier le nom d'utilisateur et le nom du dépôt**: <br>
-```html
-https://raw.githubusercontent.com/utilisateur/dépôt/....
-```
-- Appuyer sur <kbd>enter</kbd> pour exécuter la commande
+> [!IMPORTANT]
+> - S'assurer qu'un fichier `setup.sh` est présent sur votre dépôt github
+> - Editer le fichier, le lire et faire les modifications 
+> - Ouvrir un terminal puis coller la commande `curl` **sans l'exécuter** avec la combinaison <kbd>CTRL+SHIFT+V</kbd>
+> - **Modifier le nom d'utilisateur et le nom du dépôt**: <br>
+  ```html
+  https://raw.githubusercontent.com/utilisateur/dépôt/....
+  ```
+> - Appuyer sur <kbd>enter</kbd> pour exécuter la commande
 ------------
 - Le script installe tour à tour `git` et `postgresql`
 - On appuie sur <kbd>y</kbd> puis <kbd>Enter</kbd> pour valider autant de fois que nécessaire
