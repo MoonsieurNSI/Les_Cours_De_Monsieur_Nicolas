@@ -22,7 +22,8 @@ echo -e "On installe des utilitaires...\n"
 echo -e "%%%%%%%%%%%%%%%%%%%%%%%"
 sudo apt -y install curl
 sudo apt -y install tree
-echo -e "Fin d'installation des utilitaires...\n\n\n\n"
+sudo apt -y install asciinema
+echo -e "Fin d'installation des utilitaires...\n\n\n\v"
 
 
 ####DEBUT de Config git#####
