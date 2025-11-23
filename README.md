@@ -65,8 +65,10 @@ curl -L -o setup.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De_
 - On copie la clé publique depuis le lien qui s'affiche: `https://paste.rs/xxxxx`
 - ------------
 > [!IMPORTANT]
-> La clé s'affiche dans un navigateur, copier entièrement la ligne qui devrait commencer par `ssh-ed25519` et se terminer par votre email.
-> ```ssh-ed25519 .... @monlycee.net```
+> Copier entièrement la ligne qui devrait commencer par `ssh-ed25519` et se terminer par votre email.
+> ```bash
+> ssh-ed25519 .... @monlycee.net
+> ```
 
 --------------
 - Autre Option => [snapshot dans une ça marche bien sur une IA aussi]
