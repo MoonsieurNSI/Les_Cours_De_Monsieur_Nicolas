@@ -1,0 +1,48 @@
+********* QUERY **********
+CREATE TABLE test2(nom VARCHAR(255) Primary Key, Prenom VARCHAR(10));
+**************************
+
+CREATE TABLE
+********* QUERY **********
+SELECT now();
+**************************
+
+              now              
+-------------------------------
+ 2025-11-23 16:40:40.519162+00
+(1 row)
+
+********* QUERY **********
+INSERT INTO test2
+Values (('Nicolas', 'Patrice'), ('Duhem', 'Aude'));
+**************************
+
+********* QUERY **********
+INSERT INTO test2
+Values (('Nicolas', 'P'), ('Duhem', 'A'));
+**************************
+
+INSERT 0 1
+********* QUERY **********
+select * from test2;
+**************************
+
+     nom     |  prenom   
+-------------+-----------
+ (Nicolas,P) | (Duhem,A)
+(1 row)
+
+********* QUERY **********
+Delete from test2 where prenom='('Duhem', 'A')';
+**************************
+
+********* QUERY **********
+Delete from test2 where prenom='(Duhem, A)';
+**************************
+
+DELETE 0
+********* QUERY **********
+Drop table test2;
+**************************
+
+DROP TABLE
