@@ -56,7 +56,7 @@ curl -L -o setup.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De_
 ------------
 
 
-- Le script installe tour à tour `git` et `postgresql`
+- Le script installe tour à tour `git`, `postgresql`, ...
 - L'exécution doit se mettre en pause lors de la créatin des clés SSH.
 - On appuie sur <kbd>Enter</kbd> pour la location du fichier (*Enter file in which to save the key:*)
 - puis 2 fois sur <kbd>Enter</kbd> pour la passphrase (*Enter passphrase*)
