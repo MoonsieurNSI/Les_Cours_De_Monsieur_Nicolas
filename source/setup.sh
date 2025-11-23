@@ -4,15 +4,15 @@
 sudo apt update
 echo -e "%%%%%%%%%%%%%%%%%%%%%%%"
 echo -e "On commence par installer git...\n"
-sudo apt install git
+sudo apt -y install git
 echo -e "Fin d'installation de git...\n"
 # echo -e "%%%%%%%%%%%%%%%%%%%%%%%"
 # echo -e "On installe filius, Java et tout...\n"
-# sudo apt install filius
+# sudo apt -y install filius
 # echo -e "Fin d'installation de filius...\n"
 echo -e "%%%%%%%%%%%%%%%%%%%%%%%"
 echo -e "On installe postgresql...\n"
-sudo apt install postgresql
+sudo apt -y install postgresql
 echo -e "Fin d'installation de postgresql...\n"
 echo -e "%%%%%%%%%%%%%%%%%%%%%%%"
 #répertoire de travail pour cloner notre dépôt
@@ -38,4 +38,4 @@ ssh-keygen -t ed25519 -C "patrice.nicolas7@monlycee.net"
 # Sinon on envoie la clé publique sur paste.rs
 curl -F "file=@$HOME/.ssh/id_ed25519.pub" https://paste.rs
 echo -e "\nCopier le lien précédent dans votre navigateur\n"
-echo "copier la clé dans github"
+echo "Copier la clé dans github\n"
