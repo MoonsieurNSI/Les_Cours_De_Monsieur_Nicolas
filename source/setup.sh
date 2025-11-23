@@ -41,8 +41,9 @@ ssh-keygen -t ed25519 -C "patrice.nicolas7@monlycee.net"
 ####FIN de Config git#####
 
 
-# décommenter la ligne suivante pour afficher la clé
-# cat ~/.ssh/id_ed25519.pub
+# affiche la clé publique
+cat ~/.ssh/id_ed25519.pub
+echo -e "\v"
 
 # Sinon on envoie la clé publique sur paste.rs
 curl -F "file=@$HOME/.ssh/id_ed25519.pub" https://paste.rs
