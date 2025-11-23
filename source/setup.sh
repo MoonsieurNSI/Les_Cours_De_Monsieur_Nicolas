@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#install git
+#install 
 sudo apt update
 echo -e "%%%%%%%%%%%%%%%%%%%%%%%"
 echo -e "On installe git...\n"
@@ -46,4 +46,8 @@ ssh-keygen -t ed25519 -C "patrice.nicolas7@monlycee.net"
 # Sinon on envoie la clé publique sur paste.rs
 curl -F "file=@$HOME/.ssh/id_ed25519.pub" https://paste.rs
 echo -e "\nCopier le lien précédent dans votre navigateur\n"
-echo "Copier la clé dans github\n"
+echo -e "Copier la clé dans github\n\v"
+
+# local folder
+mkdir VM
+cd VM
