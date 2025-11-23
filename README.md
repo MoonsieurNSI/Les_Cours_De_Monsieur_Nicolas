@@ -13,8 +13,9 @@
 >  #### Ubuntu Based:
 > - [x] LinuxMint
 > - [x] Ubuntu Cinnamon
-> - [x] Bodhi Linux 
-> - [ ] Edubuntu, Kubuntu, Lubuntu, Xubuntu...
+> - [x] Bodhi Linux
+> - [X] Lubuntu 
+> - [ ] Edubuntu, Kubuntu, Xubuntu...
 - Rendez-vous sur <a href="https://distrosea.com/" target="_blank"> distrosea.com</a>, se connecter et choisir la dernière version d'une distribution *Debian Based* (de préférence).
 - Quand cela est possible, choisir son bureau préféré: par exemple `Cinnamon`, `Gnome`, `xfce`, `Plasma`, ...
 
