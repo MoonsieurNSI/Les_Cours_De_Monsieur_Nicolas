@@ -24,7 +24,7 @@
 
 ### Changement graphique du Clavier vers AZERTY
 > [!IMPORTANT]
-> - Ouvrir un `Terminal` et appuyer sur la touche <kbd>a</kbd>.
+> - **Dans votre VM (*Virtual Machine*)**, ouvrir un `Terminal` et appuyer sur la touche <kbd>a</kbd>.
 > - Si la lettre `q` apparaît alors votre clavier est `Qwerty`.
 > - Tentez de le modifier graphiquement:
 >   - Avec un bureau `Cinnamon`,
@@ -50,7 +50,7 @@
 -------------
 
 > [!IMPORTANT]
-> - **Dans votre VM (*Virtual Machine*)**, ouvrir une fenêtre `Terminal`
+> - **Dans votre VM**, ouvrir une fenêtre `Terminal`
 > - Taper la commande `which curl`
 > - En théorie on s'attend à une réponse telle que `/usr/bin/curl`
 > - **En l'absence de réponse**, installer l'utilitaire `curl` avec la commande:
