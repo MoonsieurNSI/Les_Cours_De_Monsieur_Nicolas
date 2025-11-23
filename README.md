@@ -82,10 +82,14 @@
 - L'exécution doit se mettre en pause lors de la création des clés SSH.
 - On appuie sur <kbd>Enter</kbd> pour la location du fichier (*Enter file in which to save the key:*)
 - puis 2 fois sur <kbd>Enter</kbd> pour la passphrase (*Enter passphrase*)
-- On copie la clé publique depuis le lien qui s'affiche: `https://paste.rs/xxxxx`
-- ------------
+
+-----------
 > [!IMPORTANT]
-> Copier entièrement la ligne qui devrait commencer par `ssh-ed25519` et se terminer par votre email.
+> - Si on se connecte à github depuis sa VM alors on copie la clé depuis le *shell* avec <kbd>CTRL+SHIFT+C</kbd>
+> - Sinon, on copie la clé publique depuis le lien qui s'affiche: `https://paste.rs/xxxxx`
+> -------------
+> 
+> **Copier entièrement la ligne qui devrait commencer par `ssh-ed25519` et se terminer par votre email.**
 > ```bash
 > ssh-ed25519 .... @monlycee.net
 > ```
