@@ -1,17 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  ...
-  <link rel="stylesheet" type="text/css" href="/asciinema-player.css" />
-  ...
+    <meta charset="UTF-8">
+    <title>My Terminal Session</title>
+    <!-- 1. Import the Player CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/asciinema-player@3.6.3/dist/bundle/asciinema-player.css" />
 </head>
 <body>
-  ...
-  <div id="demo"></div>
-  ...
-  <script src="/asciinema-player.min.js"></script>
-  <script>
-    AsciinemaPlayer.create('../shellSesion/session1.log', document.getElementById('demo'));
-  </script>
+
+    <h1>My Database Migration Log</h1>
+    
+    <!-- 2. Create a container div for the player -->
+    <div id="terminal-demo"></div>
+
+    <!-- 3. Import the Player JS -->
+    <script src="https://cdn.jsdelivr.net/npm/asciinema-player@3.6.3/dist/bundle/asciinema-player.min.js"></script>
+
+    <!-- 4. Initialize the player -->
+    <script>
+        AsciinemaPlayer.create(
+            'session.cast',                   // Your .cast file path
+            document.getElementById('terminal-demo'), // The container div
+            {
+                // Optional settings
+                cols: 80,
+                rows: 24,
+                autoPlay: true,
+                loop: true,
+                theme: 'dracula' 
+            }
+        );
+    </script>
+
 </body>
 </html>
