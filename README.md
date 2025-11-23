@@ -59,10 +59,16 @@ curl -L -o setup.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De_
 > - Appuyer sur <kbd>enter</kbd> pour exécuter la commande
 ------------
 - Le script installe tour à tour `git` et `postgresql`
-- On appuie sur <kbd>y</kbd> puis <kbd>Enter</kbd> pour valider autant de fois que nécessaire
+- L'exécution doit se mettre en pause lors de la créatin des clés SSH.
 - On appuie sur <kbd>Enter</kbd> pour la location du fichier (*Enter file in which to save the key:*)
 - puis 2 fois sur <kbd>Enter</kbd> pour la passphrase (*Enter passphrase*)
 - On copie la clé publique depuis le lien qui s'affiche: `https://paste.rs/xxxxx`
+- ------------
+> [!IMPORTANT]
+> La clé s'affiche dans un navigateur, copier entièrement la ligne qui devrait commencer par `ssh-ed25519` et se terminer par votre email.
+> ```ssh-ed25519 .... @monlycee.net```
+
+--------------
 - Autre Option => [snapshot dans une ça marche bien sur une IA aussi]
 - Dans github, on clique sur son icône en haut à droite 
 - puis menu `settings` puis à gauche on descend vers le menu `SSH and GPG keys`
