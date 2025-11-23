@@ -6,6 +6,7 @@
 > - [x] Debian
 > - [x] PureOS
 > - [x] SpiralLinux
+> - [x] MX Linux 
 >  #### Ubuntu Based:
 > - [x] LinuxMint
 > - [x] Ubuntu Cinnamon
