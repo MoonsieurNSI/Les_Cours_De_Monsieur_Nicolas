@@ -30,14 +30,6 @@
 -------------
 
 > [!WARNING]
-> Ouvrir un terminal et s'assurer que la commande `curl` est présente:
-> ```bash
-> which curl
-> ```
-> Si une réponse comme `/usr/bin/curl` apparaît alors c'est ok sinon, il faut commencer par installer la commande
-> ```bash
-> sudo apt install curl
-> ```
 > **Avant de commencer quoi que ce soit, assurez-vous que votre dépot `github` est crée et modifier le script `setup.sh` en conséquence : c'est crucial !**
 
 - Ouvrir `Firefox` et cliquer plusieur fois sur `skip this step` et enfin `start browsing`
