@@ -71,7 +71,7 @@
 >     && ./setup.sh
 >    ```
 > 
-> - **Dans le terminal de la VM**, copier votre url `raw` afin d'adapter **le nom d'utilisateur et le nom du dépôt**: <br>
+> - **Dans le terminal de la VM**, modifier la commande `curl` en remplaçant l'url votre url `raw` afin d'adapter **le nom d'utilisateur et le nom du dépôt**: <br>
 >   ```html
 >   https://raw.githubusercontent.com/utilisateur/dépôt/..../setup.sh
 >   ```
