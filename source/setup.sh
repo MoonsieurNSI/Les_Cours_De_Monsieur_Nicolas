@@ -50,4 +50,4 @@ echo -e "Copier la clé dans github\n\v"
 
 # local folder
 mkdir VM
-cd VM
+
