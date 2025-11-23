@@ -31,7 +31,10 @@
 
 > [!WARNING]
 > - **Avant de commencer quoi que ce soit, assurez-vous que votre dépot `github` est crée et modifier le script `setup.sh` en conséquence : c'est crucial !**
-> - Editer le fichier `setup.sh` et chercher la ligne `####DEBUT de Config git#####`.
+> - Editer le fichier `setup.sh` et chercher la ligne suivante:
+>   ```sh
+>   ####DEBUT de Config git#####
+>   ```
 > - Lire les commentaires et apporter les changements nécessaires
 > - Ne pas oublier de *commit* les changements sur github
 
