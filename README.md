@@ -46,23 +46,29 @@
 > - Lire les commentaires et apporter les changements nécessaires
 > - Ne pas oublier de *commit* les changements sur github
 
-- Dans votre machine virtuelle, ouvrir `Firefox` et cliquer plusieur fois sur `skip this step` et enfin `start browsing`
-- Dans la barre d'adresse du navigateur taper [https://sharetext.io/61640708](https://sharetext.io/61640708) pour copier la première commande (ci-après)...ou taper la directement dans votre console si vous êtes chaud.
+-------------
 
-```bash
-curl -L -o setup.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De_Monsieur_Nicolas/refs/heads/main/source/setup.sh \
-  && chmod +x setup.sh \
-  && ./setup.sh
-```
 > [!IMPORTANT]
-> - Ouvrir un terminal
+> - Ouvrir une fenêtre `Terminal`
 > - Taper la commande `which curl`
 > - En théorie on s'attend à une réponse telle que `/usr/bin/curl`
 > - **En l'absence de réponse**, installer l'utilitaire `curl` avec la commande:
 >   ```bash
 >   sudo apt install curl
 >   ```
-> - **Sans l'exécuter**, coller la commande `curl` avec la combinaison <kbd>CTRL+SHIFT+V</kbd>
+>   Exécuter la commande suivante:
+>   ```bash
+>   curl https://sharetext.io/api/text?slug=61640708
+>   ```
+>   **Sélectionner et copier la Première Commande** avec la combinaison <kbd>CTRL+SHIFT+C</kbd>
+> - **Sans l'exécuter**, coller la première commande  avec la combinaison <kbd>CTRL+SHIFT+V</kbd>
+>   ```bash
+>    curl -L -o setup.sh
+> https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De_Monsieur_Nicolas/refs/heads/main/source/setup.sh \
+>  && chmod +x setup.sh \
+>  && ./setup.sh
+    ```
+> 
 > - **Modifier le nom d'utilisateur et le nom du dépôt**: <br>
 >   ```html
 >   https://raw.githubusercontent.com/utilisateur/dépôt/....
