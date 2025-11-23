@@ -28,7 +28,7 @@ echo -e "Fin d'installation des utilitaires...\n\n\n\n"
 mkdir VmLinux
 cd VmLinux
 
-####Config git#####
+####DEBUT de Config git#####
 #remplacer "MoonsieurNSI" par votre "user" github
 git config --global user.name "MoonsieuNSI"
 
@@ -40,6 +40,8 @@ git config --global --list
 #cle ssh
 #modifier l'email avec votre "email" github
 ssh-keygen -t ed25519 -C "patrice.nicolas7@monlycee.net"
+####FIN de Config git#####
+
 
 # décommenter la ligne suivante pour afficher la clé
 # cat ~/.ssh/id_ed25519.pub
