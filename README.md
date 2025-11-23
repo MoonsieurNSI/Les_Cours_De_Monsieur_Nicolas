@@ -90,7 +90,7 @@
 > ```
 
 --------------
-- [Autre Option => snapshot dans une ça marche bien sur une IA aussi]
+- Aller sur github depuis votre machine ou votre VM
 - Dans github, on clique sur son icône en haut à droite 
 - puis menu `settings` puis à gauche on descend vers le menu `SSH and GPG keys`
 - On clique sur `New SSH Key`
@@ -102,8 +102,8 @@
   # Pour travailler dans un dossier dédié
   cd VM
   ```
-- On récupère la deuxième commande [https://sharetext.io/61640708](https://sharetext.io/61640708)
-- On clone son repo (ici c'est le mien !!)
+- On copie la **Deuxième Commande** `curl` 
+- Cloner son repo avec les bons noms (ici c'est le mien !!)
   ```bash
   git clone git@github.com:MoonsieurNSI/Les_Cours_De_Monsieur_Nicolas.git
   ```
