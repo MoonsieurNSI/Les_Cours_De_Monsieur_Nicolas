@@ -71,12 +71,13 @@ curl -L -o setup.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De_
 > ```
 
 --------------
-- Autre Option => [snapshot dans une ça marche bien sur une IA aussi]
+- [Autre Option => snapshot dans une ça marche bien sur une IA aussi]
 - Dans github, on clique sur son icône en haut à droite 
 - puis menu `settings` puis à gauche on descend vers le menu `SSH and GPG keys`
 - On clique sur `New SSH Key`
 - On donne un titre à la clé et on colle la clé publique SSH dans la zone `Key` 
-- Optionnel => [Supprimer les clés obsolètes]
+- [Facultatif => Supprimer les clés obsolètes]
+- Entrer votre mot de passe si github vous demande de confirmer votre identité
 - On retourne sur la VM si on n'y était pas
 - On récupère la deuxième commande [https://sharetext.io/61640708](https://sharetext.io/61640708)
 - On clone son repo (ici c'est le mien !!)
