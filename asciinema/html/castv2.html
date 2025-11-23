@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Terminal Session</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/asciinema-player@3.6.3/dist/bundle/asciinema-player.css" />
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+            background-color: #282a36; /* Dracula background match */
+            color: white;
+        }
+        .controls {
+            margin-bottom: 20px;
+            background: #44475a;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        label {
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        /* Style the player container to prevent layout shifts */
+        #terminal-demo {
+            min-height: 400px; 
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mes Sessions Shell</h1>
+    
+    <div class="controls">
+        <label for="file-selector">Choose a .cast file:</label>
+        <!-- Input to select the file -->
+        <input type="file" id="file-selector" accept=".cast" />
+    </div>
+
+    <!-- Container for the player -->
+    <div id="terminal-demo"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/asciinema-player@3.6.3/dist/bundle/asciinema-player.min.js"></script>
+
+    <script>
+        const fileSelector = document.getElementById('file-selector');
+        const playerContainer = document.getElementById('terminal-demo');
+        let currentPlayer = null; // To keep track of the active player
+
+        // Listen for when a user selects a file
+        fileSelector.addEventListener('change', (event) => {
+            const file = event.target.files[0];
+            
+            if (file) {
+                // 1. Cleanup: Remove existing player if one is running
+                if (currentPlayer) {
+                    currentPlayer.dispose();
+                    playerContainer.innerHTML = ''; // Double check to clear DOM
+                }
+
+                // 2. Create a Blob URL (makes the local file accessible to the player)
+                const objectUrl = URL.createObjectURL(file);
+
+                // 3. Initialize the player with the new URL
+                currentPlayer = AsciinemaPlayer.create(
+                    objectUrl,
+                    playerContainer,
+                    {
+                        cols: 80,
+                        rows: 24,
+                        autoPlay: true,
+                        loop: true,
+                        theme: 'dracula'
+                    }
+                );
+            }
+        });
+    </script>
+
+</body>
+</html>
