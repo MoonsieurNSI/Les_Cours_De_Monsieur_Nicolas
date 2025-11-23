@@ -50,7 +50,7 @@
 -------------
 
 > [!IMPORTANT]
-> - Ouvrir une fenêtre `Terminal`
+> - **Dans votre VM (*Virtual Machine*)**, ouvrir une fenêtre `Terminal`
 > - Taper la commande `which curl`
 > - En théorie on s'attend à une réponse telle que `/usr/bin/curl`
 > - **En l'absence de réponse**, installer l'utilitaire `curl` avec la commande:
