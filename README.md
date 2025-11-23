@@ -1,6 +1,6 @@
 
 > [!IMPORTANT]
-> Le tutoriel suivant a été écrit sur `LinuxMint Debian Edition` mais devrait fonctionner (avec plus ou moins d'ajustements) sur les distributions Linux basées sur `Debian` ou `Ubuntu` parmi lesquelles:
+> Le tutoriel suivant a été écrit sur `LinuxMint Debian Edition` mais devrait fonctionner (avec plus ou moins d'ajustements) sur les distributions Linux basées sur `Debian` ou `Ubuntu` (en fait celles utilisant nativement `apt` comme gestionnaire de packages):
 >  #### Debian Based:
 > - [x] LinuxMint Debian Edition (LMDE)
 > - [x] Debian
@@ -13,6 +13,7 @@
 >  #### Ubuntu Based:
 > - [x] LinuxMint
 > - [x] Ubuntu Cinnamon
+> - [x] Bodhi Linux 
 > - [ ] Edubuntu, Kubuntu, Lubuntu, Xubuntu...
 - Rendez-vous sur <a href="https://distrosea.com/" target="_blank"> distrosea.com</a>, se connecter et choisir la dernière version d'une distribution *Debian Based* (de préférence).
 - Quand cela est possible, choisir son bureau préféré: par exemple `Cinnamon`, `Gnome`, `xfce`, `Plasma`, ...
