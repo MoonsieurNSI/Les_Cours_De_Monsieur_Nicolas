@@ -47,6 +47,7 @@
 >   ```
 > - Lire les commentaires et apporter les changements nécessaires
 > - Ne pas oublier de *commit* les changements sur github
+> - Cliquer sur `raw` et conserver l'url de la page
 
 -------------
 
@@ -70,9 +71,9 @@
 >     && ./setup.sh
 >    ```
 > 
-> - **Modifier le nom d'utilisateur et le nom du dépôt**: <br>
+> - **Dans le terminal de la VM**, copier votre url `raw` afin d'adapter **le nom d'utilisateur et le nom du dépôt**: <br>
 >   ```html
->   https://raw.githubusercontent.com/utilisateur/dépôt/....
+>   https://raw.githubusercontent.com/utilisateur/dépôt/..../setup.sh
 >   ```
 > - Appuyer sur <kbd>enter</kbd> pour exécuter la commande
 ------------
