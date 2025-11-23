@@ -30,9 +30,12 @@
 -------------
 
 > [!WARNING]
-> **Avant de commencer quoi que ce soit, assurez-vous que votre dépot `github` est crée et modifier le script `setup.sh` en conséquence : c'est crucial !**
+> - **Avant de commencer quoi que ce soit, assurez-vous que votre dépot `github` est crée et modifier le script `setup.sh` en conséquence : c'est crucial !**
+> - Editer le fichier `setup.sh` et chercher la ligne `####DEBUT de Config git#####`.
+> - Lire les commentaires et apporter les changements nécessaires
+> - Ne pas oublier de *commit* les changements sur github
 
-- Ouvrir `Firefox` et cliquer plusieur fois sur `skip this step` et enfin `start browsing`
+- Dans votre machine virtuelle, ouvrir `Firefox` et cliquer plusieur fois sur `skip this step` et enfin `start browsing`
 - Dans la barre d'adresse du navigateur taper [https://sharetext.io/61640708](https://sharetext.io/61640708) pour copier la première commande (ci-après)...ou taper la directement dans votre console si vous êtes chaud.
 
 ```bash
@@ -41,8 +44,6 @@ curl -L -o setup.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De_
   && ./setup.sh
 ```
 > [!IMPORTANT]
-> - S'assurer qu'un fichier `setup.sh` est présent sur votre dépôt github
-> - Editer le fichier, le lire et faire les modifications 
 > - Ouvrir un terminal puis coller la commande `curl` **sans l'exécuter** avec la combinaison <kbd>CTRL+SHIFT+V</kbd>
 > - **Modifier le nom d'utilisateur et le nom du dépôt**: <br>
 >   ```html
@@ -50,6 +51,8 @@ curl -L -o setup.sh https://raw.githubusercontent.com/MoonsieurNSI/Les_Cours_De_
 >   ```
 > - Appuyer sur <kbd>enter</kbd> pour exécuter la commande
 ------------
+
+
 - Le script installe tour à tour `git` et `postgresql`
 - L'exécution doit se mettre en pause lors de la créatin des clés SSH.
 - On appuie sur <kbd>Enter</kbd> pour la location du fichier (*Enter file in which to save the key:*)
