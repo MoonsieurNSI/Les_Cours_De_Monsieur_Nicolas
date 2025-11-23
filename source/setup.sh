@@ -5,10 +5,8 @@ sudo apt update
 echo -e "%%%%%%%%%%%%%%%%%%%%%%%"
 echo -e "On installe git...\n"
 echo -e "%%%%%%%%%%%%%%%%%%%%%%%"
-echo -e "%%%%%%%%%%%%%%%%%%%%%%%"
-echo -e "%%%%%%%%%%%%%%%%%%%%%%%"
 sudo apt -y install git
-echo -e "Fin d'installation de git...\n"
+echo -e "Fin d'installation de git...\n\n\n\n"
 # echo -e "%%%%%%%%%%%%%%%%%%%%%%%"
 # echo -e "On installe filius, Java et tout...\n"
 # sudo apt -y install filius
@@ -16,19 +14,15 @@ echo -e "Fin d'installation de git...\n"
 echo -e "%%%%%%%%%%%%%%%%%%%%%%%"
 echo -e "On installe postgresql...\n"
 echo -e "%%%%%%%%%%%%%%%%%%%%%%%"
-echo -e "%%%%%%%%%%%%%%%%%%%%%%%"
-echo -e "%%%%%%%%%%%%%%%%%%%%%%%"
 sudo apt -y install postgresql
-echo -e "Fin d'installation de postgresql...\n"
+echo -e "Fin d'installation de postgresql...\n\n\n\n"
 echo -e "%%%%%%%%%%%%%%%%%%%%%%%"
 echo -e "%%%%%%%%%%%%%%%%%%%%%%%"
 echo -e "On installe des utilitaires...\n"
 echo -e "%%%%%%%%%%%%%%%%%%%%%%%"
-echo -e "%%%%%%%%%%%%%%%%%%%%%%%"
-echo -e "%%%%%%%%%%%%%%%%%%%%%%%"
 sudo apt -y install curl
 sudo apt -y install tree
-
+echo -e "Fin d'installation des utilitaires...\n\n\n\n"
 
 #répertoire de travail pour cloner notre dépôt
 mkdir VmLinux
