@@ -78,6 +78,9 @@
 >   ```
 > - Appuyer sur <kbd>enter</kbd> pour exécuter la commande
 ------------
+> [!Note]
+> Quand la précédente procédure sera comprise, vous pourrez simplement créer votre propore `sharetext.io` ou si vous êtes rapide, tapez la commande `curl`, adaptée à votre forge github, vous-même.
+------------
 
 
 - Le script installe tour à tour `git`, `postgresql`, ...
