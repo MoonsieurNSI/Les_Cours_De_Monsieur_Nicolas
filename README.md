@@ -1,11 +1,13 @@
 
 > [!IMPORTANT]
-> Le tutoriel suivant a été écrit sur `LinuxMint` mais devrait fonctionner (avec plus ou moins d'ajustements) sur les distributions Linux basées sur `Debian` parmi lesquelles:
-> - [x] LinuxMint
-> - [x] LinuxMint Debian Edition
+> Le tutoriel suivant a été écrit sur `LinuxMint` mais devrait fonctionner (avec plus ou moins d'ajustements) sur les distributions Linux basées sur `Debian` ou `Ubuntu` parmi lesquelles:
+>  #### Debian Based:
+> - [x] LinuxMint Debian Edition (LMDE)
 > - [x] Debian
 > - [x] PureOS
 > - [x] SpiralLinux
+>  #### Ubuntu Based:
+> - [x] LinuxMint
 > - [x] Ubuntu Cinnamon
 > - [ ] Edubuntu, Kubuntu, Lubuntu, Xubuntu...
 - Rendez-vous sur <a href="https://distrosea.com/" target="_blank"> distrosea.com</a>, se connecter et choisir la dernière version d'une distribution *Debian Based*, si possible `LinuxMint`.
