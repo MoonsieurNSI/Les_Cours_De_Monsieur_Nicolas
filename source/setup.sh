@@ -23,6 +23,7 @@ echo -e "%%%%%%%%%%%%%%%%%%%%%%%"
 sudo apt -y install curl
 sudo apt -y install tree
 sudo apt -y install asciinema
+sudo apt -y install traceroute
 echo -e "Fin d'installation des utilitaires...\n\n\n\v"
 
 
