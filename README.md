@@ -1,4 +1,3 @@
-
 > [!IMPORTANT]
 > Le tutoriel suivant a été écrit sur `LinuxMint Debian Edition` mais devrait fonctionner (avec plus ou moins d'ajustements) sur les distributions Linux basées sur <a href="./img/debianTree.txt">Debian</a> (en fait celles utilisant nativement `apt` comme gestionnaire de packages):
 >  #### Debian Based:
@@ -28,7 +27,7 @@
 > - **Dans votre VM (*Virtual Machine*)**, ouvrir un `Terminal` et appuyer sur la touche <kbd>a</kbd>.
 > - Si la lettre `q` apparaît alors votre clavier est `Qwerty`.
 > - Tentez de le modifier graphiquement:
->   - Avec un bureau `Cinnamon`,
+>   - Avec un bureau `Cinnamon` par exemple :
 >   - Cliquer sur l'icône `System Settings *Control Center*` 
 >   - Cliquer sur l'icône `keyboard` dans le section `Hardware`
 >   - Cliquer sur l'onglet `Layouts` en haut de la fenêtre
